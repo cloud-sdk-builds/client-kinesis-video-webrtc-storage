@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kinesis-video-webrtc-storage`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video-webrtc-storage/v/3.908.0).
+[`@aws-sdk/client-kinesis-video-webrtc-storage`](https://www.npmjs.com/package/@aws-sdk/client-kinesis-video-webrtc-storage/v/3.910.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.908.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.910.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-bPhvkPLD/m+GEX7+RFvV2mZVD/g/n5guec9SxA76QOK5wxJrDS8t4b7GLb5M0Owv
+sha384-UFjVqx7sZTMqjGpb1o59/9F6Aye6jEDqpQsEiWLbF1n9FNNXeOpxfMfS5VgYklPW
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kinesis-video-webrtc-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.908.0/index.min.mjs"
+            "@aws-sdk/client-kinesis-video-webrtc-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.910.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.908.0/index.min.mjs": "sha384-bPhvkPLD/m+GEX7+RFvV2mZVD/g/n5guec9SxA76QOK5wxJrDS8t4b7GLb5M0Owv"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.910.0/index.min.mjs": "sha384-UFjVqx7sZTMqjGpb1o59/9F6Aye6jEDqpQsEiWLbF1n9FNNXeOpxfMfS5VgYklPW"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kinesis-video-webrtc-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.908.0/index.min.mjs"
+                        "@aws-sdk/client-kinesis-video-webrtc-storage": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.910.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.908.0/index.min.mjs": "sha384-bPhvkPLD/m+GEX7+RFvV2mZVD/g/n5guec9SxA76QOK5wxJrDS8t4b7GLb5M0Owv"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kinesis-video-webrtc-storage@3.910.0/index.min.mjs": "sha384-UFjVqx7sZTMqjGpb1o59/9F6Aye6jEDqpQsEiWLbF1n9FNNXeOpxfMfS5VgYklPW"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.908.0`)
+* Always pin to a specific version (`@3.910.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kinesis-video-webrtc-storage/blob/refs/tags/3.908.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kinesis-video-webrtc-storage/blob/refs/tags/3.910.0/LICENSE
 ```
 
 ---
